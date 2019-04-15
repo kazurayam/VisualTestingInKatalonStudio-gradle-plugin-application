@@ -1,0 +1,26 @@
+buildscript {
+    ext {
+        visualtestinginksPluginVersion = "0.0.0"
+    }
+    repositories {
+        mavenLocal()
+    }
+    dependencies {
+        classpath "com.kazurayam:visualtestinginks-export:${visualtestinginksPluginVersion}"
+	classpath "com.kazurayam:visualtestinginks-import:${visualtestinginksPluginVersion}"
+    }
+}
+
+/*
+// via the Gradle Plugin Portal https://plugins.gradle.org/
+plugins {
+    id "com.kazurayam.visualtestinginks-import" version="0.0.0"
+    id "com.kazurayam.visualtestinginks-export" version="0.0.0"
+}
+ */
+ 
+apply plugin: 'com.kazurayam.visualtestinginks-export'
+apply plugin: 'com.kazurayam.visualtestinginks-import'
+
+// $ ./gradlew export
+// $ ./gradlew import
