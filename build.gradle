@@ -6,21 +6,18 @@ buildscript {
         mavenLocal()
     }
     dependencies {
-        classpath "com.kazurayam:visualtestinginks-export:${visualtestinginksPluginVersion}"
-	classpath "com.kazurayam:visualtestinginks-import:${visualtestinginksPluginVersion}"
+        classpath "com.kazurayam:VisualTestingInKatalonStudio-gradle-plugin:${visualtestinginksPluginVersion}"
     }
 }
 
 /*
 // via the Gradle Plugin Portal https://plugins.gradle.org/
 plugins {
-    id "com.kazurayam.visualtestinginks-import" version="0.0.0"
-    id "com.kazurayam.visualtestinginks-export" version="0.0.0"
+    id "com.github.kazurayam.VisualTestingInKatalonStudio-gradle-plugin" version="0.0.0"
 }
  */
  
-apply plugin: 'com.kazurayam.visualtestinginks-export'
-apply plugin: 'com.kazurayam.visualtestinginks-import'
+apply plugin: 'com.github.kazurayam.VisualTestingInKatalonStudio-gradle-plugin'
 
 // $ ./gradlew export
 // $ ./gradlew import
