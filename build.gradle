@@ -1,23 +1,22 @@
+// load the plugin via the Maval Local repository
 buildscript {
-    ext {
-        visualtestinginksPluginVersion = "0.0.0"
-    }
     repositories {
         mavenLocal()
     }
     dependencies {
-        classpath "com.kazurayam:VisualTestingInKatalonStudio-gradle-plugin:${visualtestinginksPluginVersion}"
+        classpath "com.kazurayam:visualtestinginks-gradle-plugin:0.0.0"
     }
 }
 
-/*
-// via the Gradle Plugin Portal https://plugins.gradle.org/
-plugins {
-    id "com.github.kazurayam.VisualTestingInKatalonStudio-gradle-plugin" version="0.0.0"
-}
- */
- 
-apply plugin: 'com.github.kazurayam.VisualTestingInKatalonStudio-gradle-plugin'
+// or you can load the plugin via the Gradle Plugin Portal https://plugins.gradle.org/ once registred
+//plugins {
+//    id "com.github.kazurayam.visualtestinginks-gradle-plugin" version="0.0.0"
+//}
+
+
+
+
+apply plugin: 'com.github.kazurayam.visualtestinginks-gradle-plugin'
 
 // $ ./gradlew export
 // $ ./gradlew import

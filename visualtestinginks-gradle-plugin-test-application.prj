@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
    <description></description>
-   <name>VisualTestingInKatalonStudio-gradle-plugin-application</name>
+   <name>visualtestinginks-gradle-plugin-test-application</name>
    <tag></tag>
-   <UUID>7eb40d58-90fa-4a2f-b2e9-6717a8365d47</UUID>
+   <UUID>09a58c12-81dd-4af2-b992-14bdc43d41e4</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
    <sourceContent>
