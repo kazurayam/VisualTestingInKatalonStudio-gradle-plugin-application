@@ -25,4 +25,4 @@ apply plugin: 'com.github.kazurayam.visualtestinginks'
 // will show
 //     Hi from VTPlugin
 
-// $ ./gradlew -b build.gradle downloadJarsIntoDriversDir
+// $ ./gradlew -b build.gradle downloadDependentJars
