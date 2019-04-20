@@ -10,16 +10,19 @@ buildscript {
 
     }
 }
+apply plugin: 'com.github.kazurayam.visualtestinginks'
 
-// or you can load the plugin via the Gradle Plugin Portal https://plugins.gradle.org/ once registred
+
+// once your plugin is restered into the Gradle Plugin Portal https://plugins.gradle.org/ you can load it by plugins DSL as follows:
 //plugins {
 //    id "com.github.kazurayam.visualtestinginks" version="0.0.0"
 //}
 
 
 
+// You can runt the tasks by
+// $ ./gradlew -b build.gradle greeting
+// will show
+//     Hi from VTPlugin
 
-apply plugin: 'com.github.kazurayam.visualtestinginks'
-
-// $ ./gradlew export
-// $ ./gradlew import
+// $ ./gradlew -b build.gradle downloadJarsIntoDriversDir
