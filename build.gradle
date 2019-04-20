@@ -12,6 +12,7 @@ buildscript {
 }
 apply plugin: 'com.github.kazurayam.visualtestinginks'
 
+vt.dependencies = ['https://github.com/kazurayam/junit4ks/releases/download/1.6/junit4ks-all.jar']
 
 // once your plugin is restered into the Gradle Plugin Portal https://plugins.gradle.org/ you can load it by plugins DSL as follows:
 //plugins {
@@ -25,4 +26,6 @@ apply plugin: 'com.github.kazurayam.visualtestinginks'
 // will show
 //     Hi from VTPlugin
 
-// $ ./gradlew -b build.gradle downloadDependentJars
+// $ ./gradlew -b build.gradle downloadDependencies
+// or
+// $ ./gradlew -b build.gradle vtDependencies
