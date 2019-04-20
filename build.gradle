@@ -2,21 +2,24 @@
 buildscript {
     repositories {
         mavenLocal()
+        mavenCentral()
+        gradlePluginPortal()
     }
     dependencies {
-        classpath "com.kazurayam:visualtestinginks-gradle-plugin:0.0.0"
+        classpath "com.kazurayam:visualtestinginks:0.0.0"
+
     }
 }
 
 // or you can load the plugin via the Gradle Plugin Portal https://plugins.gradle.org/ once registred
 //plugins {
-//    id "com.github.kazurayam.visualtestinginks-gradle-plugin" version="0.0.0"
+//    id "com.github.kazurayam.visualtestinginks" version="0.0.0"
 //}
 
 
 
 
-apply plugin: 'com.github.kazurayam.visualtestinginks-gradle-plugin'
+apply plugin: 'com.github.kazurayam.visualtestinginks'
 
 // $ ./gradlew export
 // $ ./gradlew import
