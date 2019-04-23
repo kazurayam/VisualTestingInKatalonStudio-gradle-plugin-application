@@ -17,4 +17,16 @@ build
 /bin/
 Libs/
 settings/
+
+Keywords/
 Drivers/
+Materials/
+Object Repository/
+Profiles/
+Reports/
+Scripts/
+Storage/
+Test Cases/
+Test Listeners/
+Test Suites/
+run-console-mode.*

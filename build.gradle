@@ -12,7 +12,7 @@ buildscript {
 }
 apply plugin: 'com.github.kazurayam.visualtestinginks'
 
-vt.dependencies = ['https://github.com/kazurayam/junit4ks/releases/download/1.6/junit4ks-all.jar']
+//vt.dependencies = ['https://github.com/kazurayam/junit4ks/releases/download/1.6/junit4ks-all.jar']
 
 // once your plugin is restered into the Gradle Plugin Portal https://plugins.gradle.org/ you can load it by plugins DSL as follows:
 //plugins {
