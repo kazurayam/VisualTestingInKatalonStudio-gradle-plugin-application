@@ -18,3 +18,14 @@ build
 Libs/
 settings/
 Drivers/
+Keywords/
+Materials/
+Object Repository/
+Profiles/
+Reports/
+Scripts/
+Test Cases/
+Test Listeners/
+Test Suites/
+gradlew*
+run-*

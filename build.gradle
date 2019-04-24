@@ -6,26 +6,24 @@ buildscript {
         gradlePluginPortal()
     }
     dependencies {
-        classpath "com.kazurayam:visualtestinginks:0.0.0"
+        classpath "com.kazurayam:visualtestinginks:0.1.0"
 
     }
 }
 apply plugin: 'com.github.kazurayam.visualtestinginks'
 
-vt.dependencies = ['https://github.com/kazurayam/junit4ks/releases/download/1.6/junit4ks-all.jar']
+//vt.dependencies = ['https://github.com/kazurayam/junit4ks/releases/download/1.6/junit4ks-all.jar']
 
-// once your plugin is restered into the Gradle Plugin Portal https://plugins.gradle.org/ you can load it by plugins DSL as follows:
+// once your plugin is registered in the Gradle Plugin Portal (https://plugins.gradle.org/) you can load it by plugins DSL as follows:
 //plugins {
-//    id "com.github.kazurayam.visualtestinginks" version="0.0.0"
+//    id "com.github.kazurayam.visualtestinginks" version="0.1.0"
 //}
 
 
+// You can import the components and example of "VisualTestinInKatalonStudio" by
+// $ ./gradlew importVTComponents
+// and
+// $ ./gradlew importVTExample
 
-// You can runt the tasks by
-// $ ./gradlew -b build.gradle greeting
-// will show
-//     Hi from VTPlugin
-
-// $ ./gradlew -b build.gradle downloadDependencies
-// or
-// $ ./gradlew -b build.gradle vtDependencies
+// You can download required external jar files into the Drivers directory by
+// $ ./gradlew vtDependencies
