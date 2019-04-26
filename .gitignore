@@ -17,6 +17,10 @@ build
 /bin/
 Libs/
 settings/
+
+Test Cases/
+Test Listeners/
+Test Suites/
 Drivers/
 Keywords/
 Materials/
@@ -24,9 +28,7 @@ Object Repository/
 Profiles/
 Reports/
 Scripts/
-Test Cases/
-Test Listeners/
-Test Suites/
+Storage/
 gradlew*
 run-*
 vt-run-*

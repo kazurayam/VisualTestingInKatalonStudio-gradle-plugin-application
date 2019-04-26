@@ -12,6 +12,7 @@ buildscript {
 }
 apply plugin: 'com.github.kazurayam.visualtestinginks'
 
+
 vt.version = '1.10.0'
 
 // once your plugin is registered in the Gradle Plugin Portal (https://plugins.gradle.org/) you can load it by plugins DSL as follows:
